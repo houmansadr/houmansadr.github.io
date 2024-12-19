@@ -1,0 +1,14 @@
+#container,
+#navcontainer ul,
+#navcontainer ul ul,
+#navcontainer ul ul ul {
+	margin: 0 auto;
+	width: 800px;
+}
+#breadcrumbcontainer {
+    
+}
+
+#navcontainer {
+    
+}
