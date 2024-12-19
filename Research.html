@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>SPIN</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="rw_common/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="rw_common/bootstrap/custom.css">
+
+  
+</head>
+
+<style>  
+  .people-section-label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding-bottom: 1em;
+  }
+
+  .people-detail-container {
+    text-align: center;
+    padding-bottom: 1em;
+  }
+
+  .people-image {
+    border-radius: 50%;
+    max-width: 80%;
+    height: auto;
+  }
+
+  #amir-image {
+    max-width: 60%;
+  }
+
+  #cover-container {
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  #cover-image {
+    /* opacity: 0.9; */
+    max-width: 100%;
+    height: auto;
+    filter: brightness(40%);
+  }
+
+  #cover-text {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+
+  @media (max-width: 1024px) {
+    #cover-text {
+      font-size: 2em;
+    }
+  }
+
+  @media (max-width: 512px) {
+    #cover-text {
+      font-size: 1.5em;
+    }
+  }
+
+  @media (max-width: 256px) {
+    #cover-text {
+      font-size: 1em;
+    }
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+      <div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.php" rel="self" style="font-size:28px">Home</a></li>
+          <li><a href="Publications.php" rel="self" style="font-size:28px">Publications</a></li>
+          <li class="active"><a href="Research.html" rel="self" id="current" style="font-size:28px">Research Group</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="container">
+    <div class="jumbotron3">
+      <div id="cover-container">
+<!--
+		  <div>
+          <img src="resources/people/cover2.jpeg" id="cover-image">
+        </div>
+        <span id="cover-text">The Secure, Private Internet (SPIN) Research Group </span> -->
+      </div>
+
+       <h2 align="center">The Secure, Private Internet Research Group (SPIN)</h2> 
+      <br>
+
+
+      <div align="justify" style="font-size:14pt">
+        Welcome to the SPIN research group!
+        Our goal is to make Internet communications secure and private.
+        Towards this, we analyze the security and privacy provided by existing network protocols, tools, and services,
+        based on which we propose design adjustments to regain users' security and privacy, or devise clean-slate
+        Internet communication tools.
+        Our work combines the development of practical systems with rigorous theoretical analysis and incorporates
+        techniques from various
+        disciplines such as computer networking, cryptography, and statistics. Particular problems we have explored in
+        the past include
+        Internet censorship resistance, network traffic analysis, network situational awareness, social network malware,
+        mobile security, and multimedia information hiding.
+      </div>
+      <!--
+The Internet has become ubiquitous across the globe with more people getting connected to it, at more places, and through increasingly varied network-enabled devices. Unfortunately, Internet users face constant threats to their online security and privacy: repressive regimes deprive them of open access to the Internet, corporate networks monitor their online behavior, advertising companies collect and share their private information, and cybercriminals hurt them financially through security breaches. I am interested in building <b>secure and privacy-preserving tools for Internet communications</b>. Such tools can be deployed not only by dissidents and whistleblowers, but also by ordinary Internet users on a daily basis.
+<br><br>
+To be more specific, I assess the security and privacy provided by existing network protocols and services, and propose design adjustments or clean-slate architectures to retain users' security and privacy. To this end, I combine the development of practical systems with rigorous theoretical analysis, and incorporate techniques from various disciplines such as computer networking, cryptography, and statistical analysis. The specific problems I have explored in the past include Internet censorship resistance, network traffic analysis, network situational awareness, social network malware, mobile security, and multimedia information hiding. My research has found flaws in popular privacy-preserving tools, and has led to the advent of novel designs to overcome these problems. My work has been publicized in the media through interviews, and I received the <i>Best Practical Paper award</i> from the IEEE Symposium on Security & Privacy 2013.
+
+       <br>
+      <br>
+      You need more? Please read my <a href="papers/research.pdf" target="_blank">Research Statement</a> (last updated Feb. 2014).
+
+
+         <div class="clearfix visible-lg"></div>
+  </div>
+</div>
+
+
+  <div class="container">
+      <div class="jumbotron2">
+
+  -->
+
+
+
+      <hr>
+
+
+
+      <div class="people-section-label" style="font-size:16pt">Faculty</div>
+      <div class="row">
+        <div class="col-xs-3 col-sm-4"></div>
+        <div class="col-xs-6 col-sm-4 people-detail-container">
+          <img src="resources/people/amir.jpeg" class="people-image" id="amir-image">
+          <div><a href="https://people.cs.umass.edu/~amir/" target="_blank">Amir Houmansadr</a></div>
+          <div>Associate Professor</div>
+        </div>
+      </div>
+
+		
+		<br>
+		
+      <div class="people-section-label" style="font-size:16pt">PhD Students</div>
+      <div class="container">
+        <div class="row"> 
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/default.png" class="people-image">
+            <div><a href="https://people.cs.umass.edu/~jsheffey/" target="_blank">Jade Sheffey</a></div>
+            <div>Traffic Obfuscation, Anti-censorship, Privacy</div>
+          </div>
+			
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/zohaib.jpg" class="people-image">
+            <div><a href="https://alizohaib.github.io/" target="_blank">Ali Zohaib</a></div>
+            <div>Internet Censorship, Traffic Analysis</div>
+          </div>
+			
+			<div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/naseh.jfif" class="people-image">
+            <div><a href="https://ali7naseh.github.io/" target="_blank">Ali Naseh</a></div>
+            <div>AI/ML Security and Privacy</div><br>
+          </div>          
+
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/dzung.jpg" class="people-image">
+            <div><a href="https://dzungvpham.github.io/" target="_blank">Dzung Pham</a></div>
+            <div>AI/ML Security and Privacy</div>
+          </div>
+			
+				</div>
+			<div class="row"> 	
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/yuefeng.png" class="people-image">
+            <div><a href="https://bujuef.github.io" target="_blank">Yuefeng Peng</a></div>
+            <div>AI/ML Security and Privacy</div>
+          </div>
+			
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/roh.jpg" class="people-image">
+            <div><a href="https://jrohsc.github.io/" target="_blank">Jaechul Roh</a></div>
+            <div>Trustworthy AI, Adversarial ML</div>
+          </div>			
+			
+		<div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/dayeon.jpg" class="people-image">
+            <div><a href="https://dayeonkang99.github.io/" target="_blank">Dayeon Kang</a></div>
+            <div>Traffic Analysis, Network Security</div>
+          </div> 
+			
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/june.jpg" class="people-image">
+            <div><a href="https://www.linkedin.com/in/june-jeong-311a311a1/" target="_blank">Hyejun Jeong</a></div>
+            <div>AI/ML Security and Privacy</div>
+			  <div> Joint with <a href="https://people.cs.umass.edu/~shiqingma/" target="_blank">Shiqing Ma</a></div>
+          </div>
+			
+						</div>
+			<div class="row"> 
+				
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/mohammedreza.jpg" class="people-image">
+            <div><a href="https://www.linkedin.com/in/mohammadreza-teymoorian-fard/" target="_blank">Mohammadreza Teymoorianfard</a></div>
+            <div>Trustworthy AI and ML, Privacy</div>
+			  <div> Joint with <a href="https://people.cs.umass.edu/~shiqingma/" target="_blank">Shiqing Ma</a></div>
+          </div>
+			
+			          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/avatar.jpg" class="people-image">
+            <div><a href="https://arisa77.github.io/" target="_blank">Arisa Tajima</a></div>
+            <div>Trustworthy AI and ML, Privacy</div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- <ul>
+        <li>Alireza Bahramali (2017-now)</li>
+        <li>Ardavan Bozorgi (2019-now)</li>
+        <li>Jade Sheffey (2020-now)</li>
+        <li>Shreyas Kulkarni (2021-now)</li>
+        <li>Ali Zohaib (2021-now)</li>
+        <li>Ali Naseh (2021-now)</li>
+        <li>Dzung Pham (2022-now)</li>
+        <li>Yuefeng Peng (2022-now)</li>
+        <li>Dayeon Kang (2023-now)</li>
+        <li>Jaechul Roh (2023-now)</li>
+        <li>Hyejun Jeong (2023-now) [co-adivsed with Shiqing Ma]</li>
+        <li>Mohammadreza Teymoorianfard (2023-now) [co-adivsed with Shiqing Ma]</li>
+      </ul> -->
+		
+		<br><br>
+
+      <div class="people-section-label" style="font-size:16pt">PhD Alumni</div>
+      <div class="container">
+        <div class="row">
+			<div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/alireza.jpg" class="people-image">
+            <div><a href="https://www.linkedin.com/in/alireza-bahramali/" target="_blank">Alireza Bahramali</a></div>
+            <div>PhD (2024), Microsoft</div>
+          </div>
+			      <!--
+			<div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/default.png" class="people-image">
+            <div>Anonymous</div>
+            <div>PhD (2024)</div>
+          </div>
+-->
+			
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/virat.jpg" class="people-image">
+            <div><a href="https://people.cs.umass.edu/~vshejwalkar/" target="_blank">Virat Shejwalkar</a></div>
+            <div>PhD (2023), Google</div>
+          </div>
+			
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/hamid.jpg" class="people-image">
+            <div><a href="https://hamidmozaffari.github.io/" target="_blank">Hamid Mozaffari</a></div>
+            <div>PhD (2023), Oracle Labs</div>
+          </div>
+			
+			<div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/milad.jfif" class="people-image">
+            <div><a href="https://www.linkedin.com/in/milad-nasr-50ab6a56/" target="_blank">Milad Nasr</a></div>
+            <div>PhD (2022),  Deepmind</div>
+          </div>
+			          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/fatemeh.jfif" class="people-image">
+            <div><a href="https://www.linkedin.com/in/fatemerezaei/" target="_blank">Fatemeh Rezaei</a></div>
+            <div>PhD (2021), Snap</div>
+          </div>
+
+			<!--
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/amirhossein.jpg" class="people-image">
+            <div><a href="https://www.linkedin.com/in/amiiigh/" target="_blank">Amirhossein Ghafari</a></div>
+            <div>MSc (2021), NVIDIA</div>
+          </div>
+			
+          <div class="col-xs-6 col-sm-3 people-detail-container">
+            <img src="resources/people/hadi.jfif" class="people-image">
+            <div><a href="https://www.linkedin.com/in/hadizolfaghari/" target="_blank">Hadi Zolfaghari</a></div>
+            <div>MSc (2018), Google</div>
+          </div>
+-->
+        </div>
+      </div>
+
+      
+      <br>
+
+      <ul>
+        <!-- <li>Virat Shejwalkar (PhD, 2023)-&gt; Google</li>
+        <li>Hamid Mozaffari (PhD, 2023) -&gt; Oracle Labs</li>
+        <li>Milad Nasr (PhD, 2022) -&gt; Google Research</li>
+        <li>Fatemeh Rezaei (PhD, 2021) -&gt; Snap</li>
+        <li>Amirhossein Ghafari (MSc, 2021) -&gt; NVIDIA</li>
+        <li>Hadi Zolfaghari (MSc, 2018) -&gt; Google</li> -->
+		  
+		  
+
+		          <li> <b>Masters Alumni:</b> Paras Doshi (2015), Rufina Chettiar (2015), Shreyas Mishra (2019), Hadi Zolfaghari (2018, Google), Amirhossein Ghafari (2021, NVIDIA)</li>
+
+ 	      	 <li><b>Undergraduate Theses:</b> Kevin Feveck (Honors Thesis, 2015), John Holowczak (2014-2015), Derek
+          Costigan (Honors Thesis, 2016), Joseph Lew (Honors Thesis, 2017), John Geenty (Honors Thesis, 2018), Yudong
+          Diao (Honors Thesis, 2019), Matthew Hickey (Honors Thesis, 2019), Milo Cason-Snow (Honors Thesis, 2020), Jonah
+          O'Brien Weiss (Honors Thesis, 2021)</li>
+
+		          <li><b>Visitors:</b> <a href="https://sharif.edu/~s_amini/" target="_blank">Sajjad Amini</a> (2023-2024), Pedro Henrique (2024-2025)</li>
+
+		  <!--<li><i>Scholarship-for-Service Advisees:</i> Cassian Corey (2016-2017), Adin Egid (2016-2017), Nick Merlino
+          (2017-2018), Jiyanyi Huang (2017-2019)</li>
+-->
+
+      </ul>
+
+
+      <hr>
+		
+		
+      <h3> Active Research Topics</h3>
+      We always strive to explore emerging, impactful research problems in the area of security and privacy. The
+      following are our active research topics:
+      <ul>
+        <li>Privacy-enhancing technologies</li>
+        <li>Adversarial machine learning</li>
+        <li>Network traffic analysis</li>
+        <li>Privacy in next-generation networks</li>
+        <li>Covert communications</li>
+        <li>IoT and location privacy</li>
+
+      </ul>
+
+
+      <hr>
+      <h3>Software/Code</h3>
+
+      SPIN's code repository: <a href="https://github.com/SPIN-UMass" target="_blank">SPIN's
+        GitHub repository</a> <br>
+      Select network traces: <a href="https://traces.cs.umass.edu/index.php/Network/Network"
+        target="_blank">UMass Trace Repository</a> <br>
+
+      Other code: <br>
+      <ul>
+        <li> <a href="https://massbrowser.cs.umass.edu/" target="_blank">MassBrowser Circumvention System</a> </li>
+        <li> <a href="https://github.com/ha-D/waterfall" target="_blank">The Waterfall Decoy Routing System</a> </li>
+        <li> <a href="FlowCorrelation.html" target="_blank">Flow Correlation Projects</a> </li>
+        <!--  <li> <a href="http://www.cachebrowser.net/" target="_blank">CacheBrowser Circumvention System</a>  </li>-->
+        <li> <a href="https://github.com/DCostigan/SNP" target="_blank">Privacy-preserving Social Networking</a></li>
+        <li>For older projects please send an email! </li>
+      </ul>
+
+      <hr>
+
+
+
+
+      <h3>Selected Media Coverage</h3>
+
+      <ul>
+		  
+		  <li> Interviewed by <a target="_blank" href="https://wbznewsradio.iheart.com/featured/new-england-weekend/content/2024-10-05-1248-new-england-weekend-from-inbox-to-danger-understanding-scam-emails-and/"> WBZ NewsRadio 1030</a> on online safety. </li>
+
+			  <li> Interviewed by MassLive on <a target="_blank" href="https://www.masslive.com/westernmass/2024/02/russia-installed-malware-on-wi-fi-routers-the-boston-fbi-helped-shut-it-down.html&subscribed=google-oauth2%7C107241143355617134915">Russian WiFi malware</a>. </li>
+			  
+			  
+		  <li> <a target="_blank" href="https://www.umass.edu/news/article/houmansadr-lab-wins-trifecta-awards-groundbreaking-work-great-firewall-china">Houmansadr Lab Wins Trifecta of Awards for Groundbreaking Work on the Great Firewall of China.</a> </li>
+		  
+        <li> <a target="_blank" href="https://techcrunch.com/2022/10/05/china-censorship-vpn-ban-party-congress/">Tech
+            Crunch covering GFW Report's findings about recent TLS censorship.</a> </li>
+
+        <li> <a target="_blank" href="https://www.thewirechina.com/2020/08/30/security-rift/">Interview with The Wire
+            China on the recent censorship arms-race</a> </li>
+
+        <li> <a target="_blank"
+            href="https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/">Coverage
+            of our study of ESNI blocking</a></li>
+        <li> <a target="_blank" href="https://www.youtube.com/watch?v=L_rYbkjdYOU">TV interview on Net Neutrality</a>
+        </li>
+
+        <li> <a target="_blank" href="https://www.opentech.fund/news/research-corner-massbrowser/">Open Tech Fund blog
+            on MassBrowser</a></li>
+
+
+        <li> <a target="_blank"
+            href="https://news.bitcoin.com/graphene-block-propagation-technology-claims-to-be-10x-more-efficient/">Coverage
+            of Graphene</a></li>
+
+        <li> <a target="_blank"
+            href="https://news.bitcoin.com/bitcoin-unlimited-merges-graphene-block-propagation-technology/">Bitcoin
+            Unlimited Merges Graphene Block Propagation Technology</a></li>
+
+        <li> <a target="_blank"
+            href="http://www.umass.edu/newsoffice/article/umass-amherst-cyber-security-expert">Coverage of NSF CAREER
+            Award</a></li>
+
+        <li><a target="_blank" href="http://www.elespanol.com/ciencia/20151123/81491892_0.html">Interview with EL
+            ESPANOL</a> (Spanish)</li>
+
+        <li> <a target="_blank"
+            href="http://www.masslive.com/news/index.ssf/2016/02/umass_security_expert_receives.html">Interview with
+            MassLive</a></li>
+
+        <li><a target="_blank"
+            href="http://www.technologyreview.com/news/543711/browser-plug-in-punches-an-unfixable-hole-in-chinas-great-firewall/">MIT
+            Technology Review writes about CacheBrowser</a></li>
+
+        <li><a target="_blank"
+            href="http://www.chinatopix.com/articles/70463/20151202/new-plug-in-promises-quicker-easier-way-to-bypass-internet-censorship-in-china.htm">China
+            Topix article on CacheBrowser</a></li>
+
+
+        <li>Interview with the <a target="_blank"
+            href="http://www.newscientist.com/article/mg21128225.500-stegobot-can-steal-passwords-from-your-facebook-photos.html#.UdTQmT773LM">New
+            Scientist</a></li>
+
+        <li><a target="_blank" href="http://www.ece.illinois.edu/newsroom/article/1366">Departmental coverage of our
+            research at UIUC</a></li>
+
+        <li>Interview with the <a targer="_blank"
+            href="http://csl.illinois.edu/news/stegobot-steals-passwords-reveals-social-network-insecurities">CSL
+            Communications</a></li>
+
+        <li>Other media coverage: [<a
+            href="http://www.msnbc.msn.com/id/43947319/ns/technology_and_science-security/">msnbc</a>] [<a
+            href="http://articles.timesofindia.indiatimes.com/2011-08-01/social-media/29838220_1_facebook-photos-botnet-social-network">Times
+            of India</a>] [<a
+            href="http://www.securitynewsdaily.com/stegobot-steals-passwords-credit-card-data-from-facebook-pics-1009/">Security
+            News Daily</a>] [<a
+            href="http://www.thinkdigit.com/Internet/Stegobot-sneaks-into-your-computer-through-Facebook_7269.html">Think
+            Digit</a>] [<a
+            href="http://criminalwisdom.com/post/8251164054/stegobot-steals-passwords-from-your-facebook-photos">Criminal
+            Wisdom</a>] [<a
+            href="http://blog.laptopmag.com/stegobot-steals-passwords-credit-card-data-from-facebook-pics">LaptopMag</a>]
+          [<a
+            href="http://www.siliconindia.com/shownews/Facebook_pictures_can_reveal_your_secrets-nid-87681.html">SiliconIndia</a>]
+          [<a href="http://www.csl.uiuc.edu/news/stegobot-can-steal-passwords-your-facebook-photos">CSL</a>] [<a
+            href="http://networksolutiontips.blogspot.com/2011/08/stegobot-sneaks-into-your-computer.html">NetworkSolutionTips</a>]
+        </li>
+      </ul>
+      <hr>
+    </div>
+  </div>
+
+  <!--	<div class="clearer"></div>-->
+  <div align="center" id="footer"><!-- Start Footer -->
+    <div id="breadcrumbcontainer"><!-- Start the breadcrumb wrapper -->
+
+    </div><!-- End breadcrumb -->
+    <p>&copy; 2024 Amir Houmansadr</p>
+  </div><!-- End Footer -->
+
+  <script type="text/javascript" src="rw_common/myjavascript.js"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52264805-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-52264805-1');
+  </script>
+  <!-- end google analytics-->
+
+  <script>
+    !function (g, s, q, r, d) {
+      r = g[r] = g[r] || function () {
+        (r.q = r.q || []).push(
+          arguments)
+      }; d = s.createElement(q); q = s.getElementsByTagName(q)[0];
+      d.src = '//d1l6p2sc9645hc.cloudfront.net/tracker.js'; q.parentNode.
+        insertBefore(d, q)
+    }(window, document, 'script', '_gs');
+
+    _gs('GSN-868510-G');
+  </script><!-- End LiveStats -->
+
+  <script src="//static.getclicky.com/js" type="text/javascript"></script>
+  <script type="text/javascript">try { clicky.init(100828477); } catch (e) { }</script>
+  <noscript>
+    <p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100828477ns.gif" /></p>
+  </noscript>
+
+
+</body>
+
+</html>
